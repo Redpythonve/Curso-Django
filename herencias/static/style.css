@@ -13,7 +13,7 @@ h1{
 
 nav{
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 0, 230);
    
 }
 
@@ -31,7 +31,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 main{

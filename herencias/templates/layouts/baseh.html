@@ -12,23 +12,14 @@
     </head>
     <body>
     
-    <nav>
-        <ul>
-            <li><a href="#">Herencia</a></li>
-            <li><a href="#">Ejemploh</a></li>
-            <li><a href="#">Otrah</a></li>
-        </ul>
-
-    </nav>
+    {% include "../layouts/partials/menu.html" %}
     
     <main>
     {% block content %}{% endblock content %}
 
     </main>
     
-    <footer>
-      <p>Todos los Derechos Reservados</p>
-    </footer>
+    {% include "../layouts/partials/footer.html" %}
       
         <script src="" async defer></script>
     </body>
