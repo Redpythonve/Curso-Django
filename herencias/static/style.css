@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    padding-top: 20px;
+    font-weight:lighter;
+    color: rgb(215, 201, 228);
+    font-size: 120px;
+}
+
+nav{
+    width: 100%;
+    background-color: aqua;
+   
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul li{
+    padding: 8px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 100%;
+    min-height: 70vh;
+    padding: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+footer p{
+    color: brown;
+}
